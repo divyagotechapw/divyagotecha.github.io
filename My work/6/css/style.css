@@ -1,0 +1,302 @@
+.head {
+  background-position: 50% 50%;
+  background: url(../img/banner/home-banner.jpg) no-repeat;
+}
+.hamb {
+  color: #faba00;
+}
+.navposn {
+  padding-top: 2px !important;
+  background: #000000;
+}
+.one-height {
+  height: 100vh;
+}
+.navbar-backg {
+  background: white;
+}
+.head1 {
+  font-size: 1.5rem;
+  line-height: 38px;
+  font-family: "Heebo", sans-serif;
+}
+.home {
+  color: black;
+}
+.text1 {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+}
+.get {
+  background: #faba00;
+  color: white;
+  padding: 0.7rem 1.3rem;
+}
+.get:hover {
+  border-color: #faba00;
+  color: #faba00;
+  background: no-repeat;
+}
+.nomob {
+  display: none;
+}
+.two {
+  padding: 3rem 0rem;
+  background: #f9f9ff;
+}
+.widthsome {
+  width: 80%;
+}
+.head2 {
+  font-family: "Heebo", sans-serif;
+  color: #222222;
+  font-size: 1.5rem;
+}
+.text2 {
+  font-family: "Roboto", sans-serif;
+  line-height: 24px;
+  color: #777777;
+  width: 86%;
+}
+.over1 {
+  word-wrap: break-word;
+  background-color: #f9f9ff;
+  background-clip: border-box;
+  border: none;
+}
+.over1:hover .green {
+  color: #faba00;
+}
+.mob-padding {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.green-but {
+  padding: 1.8rem 0rem;
+}
+.text2-1 {
+  color: #777777;
+}
+.fun1 {
+  height: 550px;
+}
+.f1 {
+  overflow: hidden;
+}
+.over2 {
+  top: 130%;
+  overflow: hidden;
+  background: #faba00;
+  color: black;
+  transition: all 1s linear !important;
+}
+.f1:hover .over2 {
+  top: 285px;
+}
+.four {
+  padding: 3rem 0rem;
+}
+.over3 {
+  border: none;
+}
+.over3:hover {
+  transition: all 300ms linear 0s;
+  box-shadow: 0px 0px 15px #faba00;
+  border: none;
+}
+.over3:hover .box4 {
+  background: #ffffff;
+}
+.over3:hover .head4 {
+  color: #faba00;
+}
+.box4 {
+  padding: 2.5rem 1.5rem;
+  background: #f9f9ff;
+  border-radius: 10px;
+}
+.head4 {
+  padding-bottom: 0.5rem;
+  font-size: 1.1rem;
+  color: #222222;
+}
+.text4 {
+  color: #777777;
+}
+.five {
+  background: url(../img/notify-bg.jpg) no-repeat;
+  background-position: 50% 50%;
+}
+.five-height {
+  height: 60vh;
+}
+.read {
+  background: #faba00;
+  color: white;
+  padding: 0.5rem 1rem;
+}
+.read:hover {
+  border-color: #faba00;
+  color: #faba00;
+  background: no-repeat;
+}
+.head5 {
+  font-size: 1.5rem;
+  width: 100%;
+}
+.text5 {
+  width: 95%;
+}
+.six {
+  padding-top: 3rem;
+}
+.travel {
+  font-family: "Roboto", sans-serif;
+  border-radius: 0px;
+  background: #faba00;
+  color: white;
+  font-size: 0.9rem;
+  padding: 0.3rem 0.8rem;
+}
+.travel:hover {
+  background: #faba00;
+  color: white;
+}
+.life {
+  font-family: "Roboto", sans-serif;
+  border-radius: 0px;
+  border: 1px solid #eeeeee;
+  color: #222222;
+  font-size: 0.9rem;
+  padding: 0.3rem 0.8rem;
+}
+.life:hover {
+  background: #faba00;
+  color: white;
+}
+.hcard5 {
+  text-transform: uppercase;
+}
+.hcard5:hover {
+  color: #faba00;
+  cursor: pointer;
+}
+.tcard5 {
+  color: #777777;
+}
+.over4 {
+  border: none;
+}
+.recent {
+  padding-top: 1rem;
+  padding-left: 0rem;
+  padding-right: 0px;
+  padding-bottom: 0px;
+}
+.seven {
+  background: #f9f9ff;
+  padding: 3rem 0rem;
+}
+.footer {
+  background: #222222;
+}
+.ftext {
+  color: #777777;
+  font-family: "Roboto", sans-serif;
+}
+.ftext1 {
+  color: #777777;
+  font-family: "Roboto", sans-serif;
+}
+.fb {
+  color: #777777;
+}
+.end {
+  color: #777777;
+}
+.colr {
+  color: #faba00;
+}
+@media only screen and (min-width: 768px) {
+  .box1 {
+    color: white;
+    font-size: 2.5rem;
+    padding: 4rem 0rem;
+  }
+  .head1 {
+    line-height: 49px;
+    font-size: 2.5rem;
+  }
+  .get {
+    padding: 1rem 2rem;
+  }
+
+  .nomob {
+    display: block;
+  }
+  .navbar-backg {
+    background: transparent;
+  }
+  .home {
+    color: white;
+  }
+  .home:hover {
+    color: #faba00;
+  }
+  .box-border {
+    background: rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .box-border:hover {
+    background: #faba00;
+  }
+  .headd1 {
+    padding-left: 8rem;
+  }
+  .box {
+    padding-left: 8rem;
+  }
+  .text2 {
+    width: 65%;
+  }
+  .head2 {
+    font-size: 2.2rem;
+  }
+  .mob-padding {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .two {
+    padding: 7rem 0rem;
+  }
+  .four {
+    padding: 7rem 0rem;
+  }
+  .head5 {
+    font-size: 2.3rem;
+    width: 79%;
+  }
+  .text5 {
+    width: 64%;
+  }
+  .read {
+    background: #faba00;
+    color: white;
+    padding: 0.6rem 1.5rem;
+  }
+  .six {
+    padding: 7rem 0rem;
+  }
+  .recent {
+    padding-top: 2rem;
+  }
+  .seven {
+    padding: 7rem 0rem;
+  }
+  .ftext {
+    width: 80%;
+  }
+}

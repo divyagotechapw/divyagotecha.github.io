@@ -1,0 +1,483 @@
+.head {
+  background: url(../img/banner/banner.jpg) no-repeat;
+}
+.navbarbackg {
+  background: #001d38;
+}
+.navposn {
+  padding-top: 2px !important;
+  background: #001d38;
+}
+.one-height {
+  height: 100vh;
+}
+.navcolor {
+  color: white;
+  font-size: 1.1rem;
+}
+.navcolor:hover {
+  color: red;
+}
+.ham-size {
+  font-size: 1.9rem;
+}
+.dropdown-item:hover {
+  color: #f91842;
+}
+.submit {
+  display: none;
+}
+.overlay {
+  background: rgba(0, 29, 56, 0.8);
+}
+.text1 {
+  font-size: 1.3rem;
+  color: #f91842;
+  font-family: "Raleway", sans-serif;
+}
+.head1 {
+  text-transform: capitalize;
+  font-weight: 200;
+  font-family: "Shadows Into Light", cursive;
+}
+.search {
+  color: #ffffff;
+  background: #f91842;
+  border-width: 0px;
+}
+.input-form {
+  box-sizing: border-box;
+}
+.find {
+  width: 100%;
+  border: none;
+  font-size: 1.1rem;
+  font-family: "Raleway", sans-serif;
+}
+.find:focus-visible {
+  outline: none !important;
+}
+.find1 {
+  font-size: 1.1rem;
+  border: none;
+  width: 100%;
+  font-family: "Raleway", sans-serif;
+}
+.find1:focus-visible {
+  outline: none !important;
+}
+.btn2 {
+  text-align: left;
+}
+.search {
+  font-size: 1.1rem;
+}
+.btn-list1 {
+  border-radius: 5px;
+  color: white;
+  background: rgba(255, 255, 255, 0.2);
+}
+.btn-list1:hover {
+  color: white;
+  background: #f91842;
+}
+.widthsome {
+  width: 90%;
+}
+.text2 {
+  font-size: 1.3rem;
+  color: #f91842;
+  font-family: "Raleway", sans-serif;
+}
+.head2 {
+  font-size: 1.8rem;
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 200px;
+  color: #001d38;
+}
+.card-img {
+  width: 100%;
+}
+.card-img-overlay {
+  background: rgba(0, 29, 56, 0.5);
+}
+.cardt {
+  padding-top: 5rem;
+  font-family: "Raleway", sans-serif;
+}
+.btn-listing {
+  border-radius: 5px;
+  color: white;
+  background: rgba(255, 255, 255, 0.2);
+  font-family: "Raleway", sans-serif;
+  font-size: 0.9rem;
+}
+.over1:hover .btn-listing {
+  background: #f91842;
+}
+.btn-listing:hover {
+  background: #f91842;
+  color: white;
+  cursor: pointer;
+}
+.mob-img {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.head3 {
+  text-align: center;
+  color: #001d38;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 1.6rem;
+}
+.c-list {
+  color: #727272;
+  border: none;
+  outline: medium none;
+  font-size: 1.1rem;
+  text-decoration: none;
+  font-family: "Shadows Into Light", cursive;
+}
+.c-list:hover {
+  color: #f91842;
+  overflow: hidden;
+  border-bottom: solid 3px red;
+}
+.cadd {
+  font-family: "Raleway", sans-serif;
+  color: #727272;
+  margin-left: 2.4rem;
+}
+/* .menu {
+  margin-left: 2rem;
+} */
+.explore {
+  border-bottom: solid 1px #eaeaea;
+}
+.btn.focus,
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.saveme {
+  overflow: hidden;
+}
+.saveme img {
+  transition: all 0.5s linear;
+}
+.country:hover .cimg {
+  transform: scale(1.2, 1.2);
+}
+.country:hover .ctitle {
+  color: #f91842;
+}
+.beach {
+  padding: 1rem;
+  border-radius: 50%;
+  background: #00d363;
+  color: white;
+}
+.food {
+  padding: 1rem;
+  border-radius: 50%;
+  background: #f91842;
+  color: white;
+}
+.coffee {
+  padding: 1rem;
+  border-radius: 50%;
+  background: #6f42c1;
+  color: white;
+}
+.cut {
+  padding: 1rem;
+  border-radius: 50%;
+  color: white;
+  background: #007bff;
+}
+.shop {
+  padding: 1rem;
+  border-radius: 50%;
+  color: white;
+  background: #ffc107;
+}
+.resort {
+  padding: 1rem;
+  border-radius: 50%;
+  color: white;
+  background: #17a2b8;
+}
+.call {
+  color: #f91842;
+}
+.fourth {
+  background: url(../img/banner/four.jpg) no-repeat;
+}
+.head4 {
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  font-weight: 200;
+  font-family: "Shadows Into Light", cursive;
+}
+.text4 {
+  font-size: 1.1rem;
+  width: 73%;
+  font-family: "Raleway", sans-serif;
+}
+.four-height {
+  height: 70vh;
+}
+.over4 {
+  height: 70vh;
+  background: rgba(0, 0, 0, 0.6);
+}
+.buss1 {
+  background: #f91842;
+  color: white;
+  font-size: 1.1rem;
+  font-family: "Raleway", sans-serif;
+}
+.buss1:hover {
+  background: #f91842;
+  color: white;
+}
+
+.text5 {
+  color: #001d38;
+  font-size: 1rem;
+  width: 95%;
+  font-weight: normal;
+  font-family: "Raleway", sans-serif;
+  line-height: 32px;
+}
+.name {
+  font-size: 1rem;
+  font-family: "Raleway", sans-serif;
+}
+.carousel-indicators li {
+  margin-bottom: -27px;
+}
+.owner {
+  color: #919191;
+  font-family: "Raleway", sans-serif;
+}
+.fifth {
+  padding: 7rem 0rem;
+}
+.eight {
+  background: #001d38;
+}
+.head8 {
+  text-align: left;
+}
+.text8 {
+  color: #919191;
+}
+
+.flist li {
+  line-height: 42px;
+  color: #919191;
+  text-align: left;
+  list-style: none;
+}
+.fb {
+  color: white;
+  background: #3b5797;
+  padding: 0.7rem;
+  border-radius: 50%;
+}
+.fb:hover {
+  background: #f91842;
+}
+.google {
+  background: #db4337;
+  color: white;
+  padding: 0.7rem;
+  border-radius: 50%;
+}
+.google:hover {
+  background: #f91842;
+}
+.twi {
+  background: #007bff;
+  color: white;
+  padding: 0.7rem;
+  border-radius: 50%;
+}
+.twi:hover {
+  background: #f91842;
+}
+.dri {
+  background: #919191;
+  color: white;
+  padding: 0.7rem;
+  border-radius: 50%;
+}
+.dri:hover {
+  background: #f91842;
+}
+ul {
+  padding-inline-start: 0px;
+}
+.colr {
+  color: #f91842;
+}
+.end {
+  color: #919191;
+}
+
+@media only screen and (min-width: 768px) {
+  .navbarbackg {
+    background: transparent;
+  }
+  .navcolor {
+    color: white;
+    font-size: 1.1rem;
+  }
+  .navcolor:hover {
+    color: red;
+  }
+  .submit {
+    background: #f91842;
+    color: white;
+    display: block;
+  }
+  .submit:hover {
+    background: #f91842;
+    color: white;
+  }
+  .text1 {
+    font-size: 1.8rem;
+  }
+  .widthsome {
+    width: 80%;
+  }
+  .head1 {
+    font-size: 4.2rem;
+    letter-spacing: 2px;
+  }
+  .find1 {
+    padding-left: 10px;
+    border-left: solid 1px #000 !important;
+    border: none;
+  }
+  .btn2 {
+    text-align: right;
+  }
+  .head2 {
+    font-size: 3rem;
+  }
+  .text2 {
+    font-size: 1.5rem;
+  }
+  .mob-img {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .nav-align {
+    padding-left: 40rem;
+  }
+  .menu {
+    display: inline;
+    padding-left: 31rem;
+    margin-left: 2rem;
+  }
+  .head3 {
+    font-size: 2rem;
+    text-align: left;
+  }
+  .cardt {
+    padding-top: 6rem;
+  }
+  .ctitle {
+    font-size: 1.3rem;
+  }
+  .cadd {
+    margin-left: 2.9rem;
+  }
+  .head4 {
+    font-size: 3rem;
+  }
+  .text5 {
+    font-size: 1.2rem;
+    width: 58%;
+  }
+
+  .carousel-control-next:focus,
+  .carousel-control-next:hover,
+  .carousel-control-prev:focus,
+  .carousel-control-prev:hover {
+    color: #000;
+    text-decoration: none;
+    outline: 0;
+  }
+  .carousel-control-prev-icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    color: black;
+    padding: 1.5rem;
+    background: red;
+    border-radius: 50%;
+  }
+  .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 15%;
+    color: black;
+    text-align: center;
+    opacity: 0.5;
+    transition: opacity 0.15s ease;
+  }
+  .carousel-control-next-icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    color: black;
+    padding: 1.5rem;
+    background: red;
+    border-radius: 50%;
+    /* background: no-repeat 50%/100% 100%;*/
+  }
+  .carousel-control-next:hover,
+  .carousel-control-prev:focus,
+  .carousel-control-prev:hover {
+    color: #000;
+    text-decoration: none;
+    outline: 0;
+  }
+  .carousel-indicators li {
+    margin-bottom: -60px;
+  }
+  .prev-icon {
+    right: 83px;
+    content: "\f053";
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    top: 136px;
+  }
+  .next-icon {
+    left: 83px;
+    content: "\f053";
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    top: 136px;
+  }
+  .head8 {
+    text-align: center;
+  }
+
+  .flist li {
+    text-align: center;
+  }
+}

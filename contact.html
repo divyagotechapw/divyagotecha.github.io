@@ -61,56 +61,58 @@
                             <div class="row mb-4 contact-box">
                                 <div class="col-5 pl-0 pr-0">
                                     <h4 class="title-box mb-0">Location</h4>
-                                    <p class="content-box mb-0">Pune, 411014</p>
+                                    <p class="content-box mb-0"><a class="link-call" href="https://www.google.com/maps/@18.5450483,73.9204796,13.7z">Pune, 411014</a></p>
                                 </div>
                                 <div class="col-5 my-auto ml-auto">
-                                    <i class="fas fa-map-marked-alt contacticon-box"></i>
+                                    <a class="link-call" href="https://www.google.com/maps/@18.5450483,73.9204796,13.7z"><i class="fas fa-map-marked-alt contacticon-box"></i></a>
                                 </div>
                             </div>
                             <div class="row mb-4 contact-box">
                                 <div class="col-5 pl-0 pr-0">
                                     <h4 class="title-box mb-0">Email</h4>
-                                    <p class="content-box mb-0">divyagotecha7@gmail.com</p>
+                                    <p class="content-box mb-0"><a class="link-call" href="mailto:divyagotecha7@gmail.com" title="Send Email">divyagotecha7@gmail.com</a></p>
                                 </div>
                                 <div class="col-5 my-auto ml-auto">
-                                    <i class="fas fa-envelope-open-text contacticon-box"></i>
+                                    <a class="link-call" href="mailto:divyagotecha7@gmail.com" title="Send Email"><i class="fas fa-envelope-open-text contacticon-box"></i></a>
                                 </div>
                             </div>
                             <div class="row contact-box">
                                 <div class="col-5 pl-0 pr-0">
                                     <h4 class="title-box mb-0">Phone</h4>
-                                    <p class="content-box mb-0">8275752430</p>
+                                    <p class="content-box mb-0"><a class="link-call" href="tel:+91 8275752430" title="Call">8275752430</a></p>  
                                 </div>
                                 <div class="col-5 my-auto ml-auto">
-                                    <i class="fas fa-phone-alt contacticon-box"></i>
+                                    <a class="link-call" href="tel:+91 8275752430" title="Call"> <i class="fas fa-phone-alt contacticon-box"></i></a>
                                 </div>
                             </div>  
                         </div>
                     </div>
                     <div class="col-12 col-md-8 pt-5 pt-md-0 pl-0 pr-0">
                         <div class="contact-form">
-                            <form class="mx-auto contactform-box">
+                            <form class="mx-auto contactform-box" action="contact.php" method="POST">
                                 <div class="form-group formgroup-padding">
-                                  <input type="text" class="form-control form-decoration" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name" required>
+                                  <input type="text" class="form-control form-decoration" id="exampleInputEmail1" aria-describedby="Name" placeholder="Name" name="name" required>
                                 </div>
                                 
                                 <div class="form-group formgroup-padding">
-                                    <input type="text" class="form-control  form-decoration" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" required>
+                                    <input type="text" class="form-control  form-decoration" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" name="email" required>
                                 </div>
             
                                 <div class="form-group formgroup-padding">
-                                    <input type="text" class="form-control  form-decoration" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Subject" required>
+                                    <input type="text" class="form-control  form-decoration" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Subject" name="sub" required>
                                   </div>
             
                                   <div class="form-group formgroup-padding">
-                                    <textarea class="form-control form-decoration" id="exampleFormControlTextarea1" rows="4" placeholder="Type your message here" ></textarea>
+                                    <textarea class="form-control form-decoration" id="exampleFormControlTextarea1" rows="4" placeholder="Type your message here" name="msg" ></textarea>
                                   </div>
-                                  <div class="mx-auto btn-width pb-4 pb-md-0">
+                                  <div class="mx-auto pb-4 pb-md-0">
                                     <a>
-                                        <button class="btn-about">Send Message</button>
+                                        <!-- <button class="btn-about">Send Message</button> -->
+
+                                        <input type="submit" name="submit" class="mx-auto btn-about" value="Send Message"/> 
                                     </a>
                                 </div>
-                              </form>
+                            </form>
                         </div>
                     </div>
                 </div>

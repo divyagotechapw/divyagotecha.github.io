@@ -1,0 +1,414 @@
+.navbars {
+  background: url(../images/headb.png) no-repeat;
+  background-size: cover;
+  background-position-x: 50%;
+}
+.first-logo {
+  width: 60%;
+}
+.fontnav {
+  color: white;
+}
+.fontnav:hover {
+  color: white;
+}
+.btn.focus,
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.box-none:focus-visible {
+  outline: none !important;
+}
+.one-height {
+  height: 100vh;
+}
+.overlay {
+  background: rgba(20, 20, 20, 0.5);
+}
+.logos-image {
+  width: 50%;
+}
+.unique {
+  font-size: 1.7rem;
+}
+.port {
+  font-size: 1.9rem;
+}
+.carousel-control-prev {
+  display: none;
+}
+.carousel-control-next {
+  display: none;
+}
+.navbar {
+  background: transparent;
+}
+.navbar-toggler {
+  background: #998675;
+  color: #ffffff;
+  font-size: 1rem !important;
+}
+.icon-application {
+  font-size: 2rem;
+}
+.widthsome {
+  width: 90%;
+}
+.nam {
+  font-size: 1rem;
+}
+.namliber {
+  color: #8c8c8c;
+}
+.card-web {
+  cursor: pointer;
+}
+.card-web:hover .icon-application {
+  color: #998675;
+  cursor: pointer;
+}
+.web {
+  color: #555555;
+  font-size: 1.5rem;
+}
+.ideas {
+  font-size: 1.6rem;
+  color: #555555;
+}
+.investigation {
+  color: #8c8c8c;
+}
+.img-responsive {
+  width: 100%;
+}
+.brown {
+  background: #3e2b22;
+}
+.waxomsp {
+  color: #998675;
+  font-size: 1.6rem;
+}
+.multip {
+  font-size: 1.6rem;
+}
+.dont {
+  font-size: 1.1rem;
+  color: #615855;
+}
+.purchase {
+  background: #998675;
+  color: white;
+  font-size: 1rem;
+  border: solid #998675;
+}
+.purchase:hover {
+  background: transparent;
+  border: solid #998675;
+  color: white;
+}
+.load-more {
+  background: #998675;
+  color: white;
+  font-size: 1rem;
+  border: solid #998675;
+}
+.load-more:hover {
+  background: transparent;
+  border: solid #998675;
+  color: #998675;
+}
+.allb {
+  border-color: #998675;
+  color: #8c8c8c;
+}
+.allb:hover {
+  color: white;
+  background: #998675;
+}
+.our {
+  color: #555555;
+}
+.card-body {
+  background: #fbfaf8;
+}
+.card-body:hover {
+  background: #362f2d;
+  cursor: pointer;
+}
+.card-title {
+  color: #c7b299;
+}
+.card-text {
+  color: #d1d1d1;
+}
+
+.keyboard {
+  background: url(../images/keyboard.jpg) no-repeat;
+}
+.overl {
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+
+.present {
+  font-size: 1.6rem;
+}
+.excellent {
+  font-size: 1.5rem;
+  color: #555555;
+}
+.excellentlist {
+  list-style-type: square;
+  color: #8c8c8c;
+}
+.icon i {
+  font-size: 2rem;
+}
+.qisi {
+  color: #8c8c8c;
+}
+.imgresopn {
+  width: 90%;
+}
+.brown1 {
+  background: #35261f;
+}
+.number {
+  font-size: 2rem;
+}
+.client {
+  color: #c7b299;
+}
+.our {
+  font-size: 1.6rem;
+  color: #555555;
+}
+.investdemo {
+  color: #8c8c8c;
+}
+.card-title1 {
+  color: #555555;
+}
+.card-text1 {
+  color: #8c8c8c;
+}
+.read {
+  color: #c7b299;
+}
+.recent {
+  font-size: 1.6rem;
+  color: #555555;
+}
+.recent1 {
+  color: #8c8c8c;
+}
+.blogo {
+  background: url(../images/mount.jpg) no-repeat;
+}
+.overle {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+}
+.footer {
+  background: #191919;
+}
+.foot1 {
+  color: #555555;
+}
+.recentpost {
+  font-size: 1.5rem;
+}
+.date {
+  color: #555555;
+}
+.datetext {
+  color: #555555;
+  border-bottom: solid;
+}
+.twiter {
+  font-size: 1.5rem;
+}
+.time {
+  color: #555555;
+}
+.dribble {
+  font-size: 1.5rem;
+}
+.people {
+  color: #c7b299;
+}
+.mobileh {
+  padding-top: 35%;
+  padding-bottom: 10%;
+}
+.searchicon {
+  font-size: 1.6rem;
+  padding-top: 60px;
+  color: #c7b299;
+}
+.plusicon {
+  font-size: 1.6rem;
+  padding-top: 40px;
+  color: #c7b299;
+}
+.venom:hover .card-body {
+  background: #362f2d;
+  cursor: pointer;
+}
+.card-img-overlay {
+  display: none;
+}
+.venom:hover .card-img-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  display: block;
+}
+.custom4 {
+  display: none;
+}
+.iconbackg {
+  background: #998675;
+}
+.footer-logo {
+  width: 60%;
+}
+.navposn {
+  padding-top: 2px !important;
+  background: #3e2b22;
+  color: white;
+}
+@media only screen and (min-width: 768px) {
+  .navbars {
+    background-size: 100%;
+    height: 100vh;
+  }
+  .first-logo {
+    width: 80%;
+  }
+  .overlay {
+    width: 100%;
+    height: 100%;
+  }
+  .unique {
+    font-size: 2.5rem;
+  }
+  .port {
+    font-size: 3rem;
+  }
+  .nam {
+    font-size: 1.2rem;
+  }
+  .main {
+    width: 80%;
+  }
+  .icon-application {
+    font-size: 2.5rem;
+  }
+  .web {
+    font-size: 1.8rem;
+  }
+  .purchase {
+    font-size: 1.1rem;
+  }
+  .namliber {
+    font-size: 1.1rem;
+  }
+  .ideas {
+    font-size: 2.5rem;
+  }
+  .investigation {
+    font-size: 1.1rem;
+    width: 60%;
+  }
+  .img-responsive {
+    width: 50%;
+  }
+  .keyboard {
+    height: 60vh;
+  }
+  .imgresopn {
+    width: 60%;
+  }
+  .qisi {
+    width: 90%;
+    font-size: 1.1rem;
+  }
+  .widthsome {
+    width: 80%;
+  }
+  .our {
+    font-size: 2rem;
+  }
+  .investdemo {
+    width: 60%;
+    font-size: 1.1rem;
+  }
+  .recent {
+    font-size: 2rem;
+  }
+  .recent1 {
+    font-size: 1.1rem;
+    width: 60%;
+  }
+  .blogo {
+    background-size: 100%;
+    height: 50vh;
+  }
+  .multip {
+    font-size: 1.8rem;
+  }
+  .waxomsp {
+    font-size: 1.8rem;
+  }
+  .dont {
+    font-size: 1.2rem;
+  }
+  .present {
+    font-size: 2.8rem;
+  }
+  .present1 {
+    font-size: 1.2rem;
+    width: 40%;
+  }
+  .number {
+    font-size: 2.5rem;
+  }
+  .excellent {
+    font-size: 2rem;
+  }
+  .excellentlist {
+    font-size: 1.1rem;
+  }
+  .qisi {
+    font-size: 1.1rem;
+  }
+  .custom4 {
+    font-size: 4rem;
+    display: block;
+    padding-top: 257px;
+  }
+  .searchicon {
+    padding-top: 85px;
+  }
+  .plusicon {
+    padding-top: 85px;
+  }
+  .mobileh {
+    padding-top: 200px;
+  }
+  .iconbackg {
+    background: none;
+  }
+  .lines {
+    margin-bottom: -25px;
+  }
+  .fontnav {
+    font-size: 1.2rem;
+  }
+  .logos-image {
+    width: 70%;
+  }
+}
