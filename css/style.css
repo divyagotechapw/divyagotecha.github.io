@@ -222,7 +222,6 @@ a {
   top: 0;
   right: 0;
   left: 0;
-  z-index: 2;
   opacity: 1;
   transition: opacity 0.3s;
   -webkit-transition: opacity 0.3s;
@@ -549,7 +548,16 @@ a {
   color: #6e5494;
 }
 .jq {
-  width: 30%;
+  width: 5rem;
+  height: 5rem;
+}
+.footer-section {
+  background: #111;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+.footer-textcolor {
+  color: #ffb400;
 }
 
 /* work code */
@@ -766,7 +774,7 @@ a {
   letter-spacing: 10px;
   line-height: 0.7;
   text-transform: uppercase;
-  font-size: 2.9rem;
+  font-size: 2.7rem;
   transform: translateY(-50%);
   color: rgba(255, 255, 255, 0.07);
   text-align: center !important;
@@ -1023,6 +1031,7 @@ a {
     display: flex;
     align-items: center;
     height: 100vh;
+    z-index: 4;
   }
   .header-index ul.icon-menu {
     background-color: transparent;
