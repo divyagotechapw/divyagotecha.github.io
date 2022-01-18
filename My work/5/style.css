@@ -2,6 +2,12 @@
   background: url(img1/bg.jpg) no-repeat;
   height: 100vh;
 }
+.widthsome {
+  width: 90%;
+}
+.widthsome1 {
+  width: 90%;
+}
 .fas {
   color: #c49b63;
 }
@@ -49,7 +55,7 @@
   width: 80%;
 }
 .bordeer {
-  border-right: solid 1px black;
+  border-right: none;
 }
 .john {
   width: 110px;
@@ -64,8 +70,15 @@
 }
 .absolt {
   position: absolute;
-  bottom: -71px;
-  left: 80px;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .our1 {
   color: black;
@@ -84,10 +97,12 @@
 }
 .dish {
   width: 100%;
+  height: 30vh;
+  cursor: pointer;
 }
 .fresh1 {
   width: 100%;
-  height: 40vh;
+  height: 30vh;
 }
 .card {
   overflow: hidden;
@@ -107,6 +122,7 @@
   margin-top: 30px;
   margin-bottom: 100px;
   color: #c49b63;
+  text-align: center;
 }
 .dot1 {
   width: 20px;
@@ -128,7 +144,7 @@
   color: #c49b63;
 }
 .newstext {
-  width: 66%;
+  width: 100%;
 }
 .always1 {
   width: 79%;
@@ -164,7 +180,7 @@
   background: #c49b63;
 }
 .mac {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   color: #542a0c;
 }
 .eventimg {
@@ -215,7 +231,7 @@
 
 .textpadding {
   margin-top: 90px;
-  margin-left: 90px;
+  text-align: center;
 }
 .ourteam {
   background: #c49b63;
@@ -332,7 +348,7 @@
     width: 55%;
   }
   .widthsome {
-    width: 80%;
+    width: 90%;
   }
   .mac {
     font-size: 2.5rem;
@@ -356,6 +372,7 @@
     width: 70%;
     margin-top: 100px;
     margin-bottom: 100px;
+    text-align: left;
   }
   .textpadding {
     margin-top: 120px;
@@ -372,7 +389,10 @@
   }
   .fresh1 {
     width: 100%;
-    height: 30vh;
+    height: 27vh;
+  }
+  .bordeer {
+    border-right: solid 1px black;
   }
   .our {
     font-size: 2rem;
@@ -383,7 +403,7 @@
   }
   .dishes1 {
     font-size: 2rem;
-    margin-top: 130px;
+    padding-top: 2rem;
   }
 
   .dishes2 {
@@ -401,7 +421,7 @@
     font-size: 2rem;
   }
   .newstext {
-    width: 66%;
+    width: 80%;
   }
   .john {
     width: 160px;
