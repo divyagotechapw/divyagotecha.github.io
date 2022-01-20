@@ -566,11 +566,9 @@ a {
   width: 100%;
   height: 100%;
 }
-.card-port {
-}
-.Portfolio-img {
-  height: 28vh;
-}
+/* .Portfolio-img {
+  height: 100%;
+} */
 .modal-img {
   height: 30vh;
 }
@@ -623,7 +621,9 @@ a {
 .modalproj-name {
   color: #ffb400;
 }
-
+.modalproj-name:hover {
+  text-decoration: underline;
+}
 .carousel-indicators li {
   display: none !important;
 }
@@ -1131,7 +1131,9 @@ a {
   }
 
   /* work code */
-
+  .Portfolio-img {
+    height: 25vh;
+  }
   .modal-backg {
     padding: 20px;
     width: 100%;
